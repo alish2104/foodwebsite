@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #FF6347, #FFA500);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .login-container {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            max-width: 400px;
+            width: 100%;
+            text-align: center;
+            padding: 20px;
+            height: 250px;
+
+        }
+
+        .login-container input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+
+        #loginForm a{
+            width: 100%;
+    padding: 10px;
+    background: linear-gradient(to right, #FFA500, #363636);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+        }
+
+        #loginForm a:hover{
+            background: linear-gradient(to right, #FF8C00, #2C2C2C);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="login-container">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <a href="food.html">Login</a>
+        </form>
+    </div>
+
+    <!-- <script>
+       function goToAnotherPage() {
+            // Redirect to the desired page
+            window.location.href = 'food.html';
+        }
+    </script> -->
+
+</body>
+</html>
